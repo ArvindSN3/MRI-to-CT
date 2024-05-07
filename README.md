@@ -18,9 +18,9 @@ The "tutorial_train.py" script trains a neural network model using PyTorch Light
 A custom dataset 'MyDataset' is used for training. The DataLoader is set up with specified batch size and shuffling. Finally, PyTorch Lightning Trainer is initialized with GPU support and other configurations, and the model is trained on the dataset.
 
 To run the this after cloning with the before mentioned github repo and placing the dataset inside the repo:
-# run python tutorial_dataset.py
-# run python tool_add_control.py path/to/sd/model paht/to/control/model
-# run python tutorial_train.py
+## run python tutorial_dataset.py
+## run python tool_add_control.py path/to/sd/model paht/to/control/model
+## run python tutorial_train.py
 
 Under the "cldm" directory, there are 5 other python scripts "cldm.py", "ddim_hacked.py", "hack.py", "logger.py", and "model.py" which are essential for the ControlNet model.
 
